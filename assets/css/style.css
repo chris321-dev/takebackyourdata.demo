@@ -463,6 +463,25 @@ h6 {
   text-align: center;
   color: white;
   padding: 0 20px;
+  position: relative;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background-color: rgb(75, 139, 208, 0.4); */
+  background-color: rgb(0, 0, 0, 0.5);
+  z-index: 1;
+  border-radius: 15px;
+}
+
+.hero .overlay1 {
+  position: relative;
+  z-index: 2; 
 }
 
 .hero-buttons .btn {
@@ -484,14 +503,16 @@ h6 {
   font-size: 4rem;
   margin-top: 50px;
   margin-bottom: 20px;
-  color: #000;
-  -webkit-text-stroke: 1.5px #D7D0D0;
+  color: #f5f5f5;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  /* -webkit-text-stroke: 1.5px #D7D0D0; */
 }
 
 .hero p {
   font-size: 1.8rem;
   margin-bottom: 20px;
-  color: #fff;
+  color: #A8DADC;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
   /* -webkit-text-stroke: 1px #fff; */
 }
 
@@ -562,25 +583,15 @@ h6 {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgb(75, 139, 208, 0.7);
+  background-color: rgb(75, 139, 208, 0.8);
   z-index: 1;
   border-radius: 15px;
 }
 
 .hero1 .overlay1 {
   position: relative;
-  z-index: 2; /* Keeps the content above the transparent background */
+  z-index: 2; 
 }
-
-/* .hero1 h1 {
-  font-size: 1.5rem;
-  margin-bottom: 20px;
-}
-
-.hero1 p {
-  font-size: 0.7rem;
-  margin-bottom: 20px;
-} */
 
 
 
@@ -692,7 +703,7 @@ section {
 
 .contact11 .overlay {
   position: relative;
-  z-index: 2; /* Keeps the content above the transparent background */
+  z-index: 2; 
 }
 
 .contact-section {
@@ -720,7 +731,7 @@ section {
 }
 
 .bg-light {
-  background-color: rgb(191, 197, 199, 0.9) !important; /* Semi-transparent background for form */
+  background-color: rgb(191, 197, 199, 0.9) !important;
 }
 
 #contact1 .form-control {
@@ -731,7 +742,7 @@ section {
 form label {
   font-weight: bold;
   color: #f5f5f5;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3)
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
  .ttt {
