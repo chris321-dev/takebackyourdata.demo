@@ -530,17 +530,17 @@ h6 {
 
 @media (max-width: 600px) {
   .hero h1 {
-    font-size: 2.3rem;
+    font-size: 2.2rem;
     
   }
 
   .hero p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   .hero-buttons .btn {
     padding: 7px 10px;
-    margin: 7px;
+    margin: 5px;
     border-radius: 5px;
     font-weight: bold;
   }
